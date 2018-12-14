@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.31.254.174:5000/core-ui-guild/gmogan-web-service
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
   name: gmogan-web-service
